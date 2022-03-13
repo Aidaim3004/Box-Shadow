@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2? family= Amiri:wght@400;700 & family= Lato:wght@300;400;700;900 & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: burlywood;
+    font-family: 'Amiri', serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 38px 0 15px 0;
+    border-bottom: 1px solid black ;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(185, 48, 178, 0.62);
+    margin: 50px 0 50px 0px;
+    border-radius: 8px;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.shadow-generator label {
+    display: block;
+
+}
+
+.shadow-generator input {
+    margin-bottom: 30px;
+    width: 80%;
+
+}
+
+.shadow-generator input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 14px;
+    cursor: pointer;
+    background-color: rgba(185, 48, 178, 0.62);
+    border-radius: 3px;
+
+}
+
+.textContent {
+    border: 2px solid blueviolet;
+    width: 80%;
+    border-radius: 5px;
+    padding: 4px 0 4px 15px;
+    background-color: #6565d3;
+}
+
+.output {
+    color: #000000;
+    font-size: 14px;
+}
+
+.checkLeft {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 52px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 2px 0 22px;
+    background-color:#6565d3;
+
+}
+.checked{
+    margin-right: -47px;
+}
+
+.checkRight {
+    display: flex;
+    align-items: flex-start;
+    margin-right: 52px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 2px 0 22px;
+    background-color:#6565d3;
+
+}
+
+.outset {
+margin-top: 12px;
+}
+
+.inset{
+    margin-top: 12px;
+}
+

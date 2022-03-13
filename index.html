@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+<section class="header">
+    <div class="container">
+        <div class="title">Генератор Box-Shadow CSS</div>
+    </div>
+</section>
+<section class="shadow-generator">
+    <div class="container">
+        <div class="row items-center">
+            <div class="col-6">
+                <label for="horizontalX">Сдвиг вправо, влево </label>
+                <input type="range" class="horizontalX" id="horizontalX" min="-100" max="100" value="0">
+
+                <label for="verticalY">Сдвиг вниз, вверх</label>
+                <input type="range" class="verticalY" id="verticalY" min="-100" max="100" value="5">
+
+                <label for="blur">Размытие</label>
+                <input type="range" class="blur" id="blur" min="0" max="50" value="15">
+
+                <label for="stretch">Распыление</label>
+                <input type="range" class="stretch" id="stretch" min="0" max="50" value="15">
+
+                <label for="color">Цвет </label>
+                <input type="color" class="color" id="color" min="0" max="50">
+
+                <label for="opacity">Прозрачность</label>
+                <input type="range" class="opacity" id="opacity" min="0" max="1" value="0">
+
+                <div class="textContent">
+                    <div class="output">Box-Shadow:</div>
+                </div>
+
+            </div>
+            <div class="col-6">
+                <div class="box"></div>
+                <div class="row">
+                    <div class="col-6 checked">
+                        <div class="checkLeft">
+                            <label for="outset">Внешний переключатель </label>
+                            <input type="radio" class="outset" id="outset" name="inset">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="checkRight">
+                            <label for="inset">Внутренний переключатель</label>
+                            <input type="radio" class="inset" id="inset" name="inset">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+<script src="./js/script.js"></script>
+</html>
